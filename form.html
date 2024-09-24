@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form action="msg.html">
+        <fieldset>
+            <legend>Personal Deatils</legend>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" required pattern="[A-Za-z]{3,8}"><br><br>
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@outlook.com" required><br><br>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Educational Detalis</legend>
+            <label for="">Department</label><br><br>
+
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">CS</label>
+
+            <input type="radio" id="ec" name="dept">
+            <label for="ec">EC</label>
+
+            <input type="radio" id="mech" name="dept">
+            <label for="mech">MECH</label>
+
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">CIVIL</label><br><br>
+
+
+
+            <label for="">Skills</label><br><br>
+
+            <input type="checkbox" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="java">
+            <label for="java">JAVA</label>
+            <input type="checkbox" id="sql">
+            <label for="sql">SQL</label><br><br>
+            <label for="">Year Of Passing</label>
+            <select name="" id="">
+                <option value="">2022</option>
+                <option value="">2023</option>
+                <option value="">2024</option>
+            </select>
+            
+
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
